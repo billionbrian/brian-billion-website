@@ -27,19 +27,69 @@
   </section>
 
   <!-- HERO -->
-  <header id="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h1>Empowering Minds.<br>Building Wealth.<br>Inspiring Change.</h1>
-      <p>Entrepreneur • Financial Literacy Advocate • Speaker • Investor</p>
-      <div class="cta-buttons">
-        <a href="#contact" class="btn">Book Me for a Talk</a>
-        <a href="#about" class="btn-outline">Explore My Journey</a>
-      </div>
+  <section id="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="hero-title">
+      Transform Your Mind.  
+      Elevate Your Life.  
+      Build Your Financial Future.
+    </h1>
+
+    <p class="hero-subtitle">
+      Empowering individuals with mindset reprogramming, personal growth systems,  
+      financial mastery, and entrepreneurship development.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#programs" class="btn-primary">Explore Programs</a>
+      <a href="#contact" class="btn-secondary">Book a Session</a>
+    </div>
+  </div>
+
+  <!-- Floating gold badges -->
+  <div class="hero-badge badge-1">Mindset<br>Transformation</div>
+  <div class="hero-badge badge-2">Financial<br>Literacy</div>
+  <div class="hero-badge badge-3">Entrepreneurship<br>Growth</div>
+</section>
+
+<!-- ===================== LUXURY NAVIGATION ===================== -->
+<nav class="luxury-nav">
+  <div class="nav-container">
+
+    <!-- BRAND -->
+    <a href="#" class="nav-logo">Brian Billion</a>
+
+    <!-- DESKTOP MENU -->
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#speaking" class="nav-link">Speaking</a></li>
+      <li><a href="#financial" class="nav-link">Programs</a></li>
+      <li><a href="#premium-gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <!-- MOBILE MENU ICON -->
+    <div class="menu-btn">
+      <span></span><span></span><span></span>
     </div>
 
-    <div class="signature">Brian&nbsp;Billion</div>
-  </header>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-nav">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#speaking">Speaking</a>
+    <a href="#financial">Programs</a>
+    <a href="#premium-gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
   <!-- ABOUT ME — PREMIUM LAYOUT -->
 <section id="about" class="about-premium">
@@ -88,21 +138,46 @@
 
 </section>
   <!-- SPEAKING ENGAGEMENTS -->
-  <section id="speaking">
-    <h2>Speaking Engagements</h2>
+  <section id="speaking" class="speaking-section">
+  <h2 class="section-title">Speaking Engagements</h2>
 
-    <video controls poster="images/background.jpg">
-      <source src="videos/speaking-placeholder.mp4" type="video/mp4" />
-      Your browser does not support video playback.
-    </video>
+  <div class="speaking-wrapper">
 
-    <div class="topics">
-      <div class="topic-card">Entrepreneurship</div>
-      <div class="topic-card">Wealth Mindset</div>
-      <div class="topic-card">Financial Freedom</div>
-      <div class="topic-card">Personal Growth</div>
+    <!-- Left: Video -->
+    <div class="speaking-video">
+      <video controls poster="images/background.jpg">
+        <source src="videos/speaking-placeholder.mp4" type="video/mp4" />
+        Your browser does not support video playback.
+      </video>
     </div>
-  </section>
+
+    <!-- Right: Cards -->
+    <div class="speaking-cards">
+
+      <div class="speak-card glass-card">
+        <h3>Entrepreneurship</h3>
+        <p>High-level insights that build global business leaders.</p>
+      </div>
+
+      <div class="speak-card glass-card">
+        <h3>Personal Growth</h3>
+        <p>Shifting your identity to unlock long-term greatness.</p>
+      </div>
+
+      <div class="speak-card glass-card">
+        <h3>Mindset Transformation</h3>
+        <p>Rewiring your thinking to dominate in life & business.</p>
+      </div>
+
+      <div class="speak-card glass-card">
+        <h3>Leadership Excellence</h3>
+        <p>Strategies for influence, power, and elite performance.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
   <!-- FINANCIAL LITERACY -->
   <section id="financial" class="financial-section">
@@ -209,36 +284,39 @@
 
 
   <!-- TESTIMONIALS -->
-  <section id="testimonials" class="glass-section">
-    <h2>What People Say</h2>
+  <section id="testimonials" class="testimonials-section">
+  <h2 class="section-title">What People Say</h2>
 
-    <div class="testimonial-carousel">
-      <div class="testimonial active">
-        <p>“Brian Billion’s insights on entrepreneurship were game-changing for our summit.”</p>
-        <h4>— Global Impact Forum</h4>
-      </div>
+  <div class="testimonial-slider">
 
-      <div class="testimonial">
-        <p>“A dynamic speaker who inspires financial confidence and clarity.”</p>
-        <h4>— Youth Finance Expo</h4>
-      </div>
-
-      <div class="testimonial">
-        <p>“Brian’s passion for empowerment is unmatched — a true thought leader.”</p>
-        <h4>— Mindset Africa Conference</h4>
-      </div>
-
-      <div class="testimonial">
-        <p>“From business acumen to purpose-driven impact, Brian delivers excellence.”</p>
-        <h4>— Summit 360 Global</h4>
-      </div>
-
-      <div class="testimonial">
-        <p>“He simplifies complex financial ideas with humor and wisdom.”</p>
-        <h4>— Nairobi Business Hub</h4>
-      </div>
+    <div class="testimonial-card active glass-card">
+      <p>“Brian Billion’s insights on entrepreneurship were game-changing for our summit.”</p>
+      <h4>— Global Impact Forum</h4>
     </div>
-  </section>
+
+    <div class="testimonial-card glass-card">
+      <p>“A dynamic speaker who inspires financial confidence and clarity.”</p>
+      <h4>— Youth Finance Expo</h4>
+    </div>
+
+    <div class="testimonial-card glass-card">
+      <p>“Brian’s passion for empowerment is unmatched — a true thought leader.”</p>
+      <h4>— Mindset Africa Conference</h4>
+    </div>
+
+    <div class="testimonial-card glass-card">
+      <p>“From business acumen to purpose-driven impact, Brian delivers excellence.”</p>
+      <h4>— Summit 360 Global</h4>
+    </div>
+
+    <div class="testimonial-card glass-card">
+      <p>“He simplifies complex financial ideas with humor and wisdom.”</p>
+      <h4>— Nairobi Business Hub</h4>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- FAQ -->
   <section id="faq">
